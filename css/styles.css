@@ -1,0 +1,282 @@
+body {
+    background-color: #c7deff; 
+}
+
+.noteText {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+}
+
+hr {
+    border-top: 2px pink solid;
+    width: 20em;
+    margin-top: 5em;
+}
+
+h1 {
+    color: #b8b8ff;
+    padding: 1em 1em 1em 1em;
+    border-radius: 20em;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.second-block-h1{
+    background-color: #ffb8f3;
+}
+
+h2 {
+    color: #5f5fff;
+    padding: 20px;
+    border: 1px red solid;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    width: 50%;
+}
+
+
+p, a {
+    padding: 1.6em 0;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+header {
+    background-color: #dcffde;
+}
+
+footer {
+    background-color: #85d282;
+    color: #fff;
+}
+
+footer p {
+    padding: 0.8rem 0;
+}
+
+.logo {
+
+
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+header .wrapper  {
+    display:flex;
+    flex-direction: column;
+}
+
+
+.welcome-btn {
+    border:2px purple solid;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    margin: 2em;
+    display: block;
+    background-color: rgb(255, 190, 201);
+    border-radius: 20em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+
+.second-paragraph {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6px;
+
+}
+
+
+
+.welcome-block{
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#main-content .wrapper {
+    min-height: calc(93vh - 10.5em);
+    background-color: #F3F5F9;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+
+}
+.main-image{
+    width: 20em;
+}
+.welcome-img {
+
+    margin: 10px;
+    padding: 10px;
+}
+.welcome-text h1 {
+
+    margin: 10px;
+    padding: 10px;
+}
+.welcome-text p { 
+
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.main p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #25255F;
+
+}
+
+#main-content h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.welcome-text .right {
+
+
+    font-size: 20px;
+    padding: 20%; 
+    font-family: "Nothing You Could Do", cursive;
+}
+
+
+
+#nav .main-nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+
+
+}
+.main-nav .nav-div {
+    padding: 0 1em;
+    margin: 2em;
+    border-radius: 12em;
+    background-color: #b8b8ffac;
+
+}
+.nav-div a {
+    text-decoration: none;
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+a:link {
+    color: hotpink;
+}
+
+a:visited{
+    color: rgb(242, 0, 255);
+}
+a:hover{
+    color: #85d282;
+}
+a:active{
+    color: green;
+}
+
+
+
+
+
+
+
+#nav {
+    padding: 10px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-div {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 12em;
+    background-color: #b8b8ffac;
+}
+
+.nav-div:hover {
+    background-color: #85d282; 
+}
+
+
+
+/* style classes for button */
+
+.textClass1 {
+    color: rgb(0, 213, 255);
+    font-weight: bold;
+    background-color: rgb(74, 78, 194);
+}
+
+.textClass2 {
+    background-color: rgb(0, 142, 174);
+    color: #000000;
+}
+
+.textClass3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #25255F;
+}
+
+
+/*nav button hover*/
+
+.nav-div {
+    background-color: #85d282;
+    transition: all 0.2s ease; /* Smooth transition for the shadow */
+}
+
+.nav-div:hover {
+    background-color: #76c474; /* Slightly darker for hover */
+}
+
+.nav-div.pressed {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px); /* Move the button slightly down to simulate pressing */
+}
+
+
+
+
